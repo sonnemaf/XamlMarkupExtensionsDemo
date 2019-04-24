@@ -123,6 +123,10 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MarkupExtensions\GlyphAndTextExtension.cs" />
+    <Compile Include="MarkupExtensions\GradientBrushExtension.cs" />
+    <Compile Include="MarkupExtensions\ImageBrushExtension.cs" />
+    <Compile Include="MarkupExtensions\KeyboardAcceleratorExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
