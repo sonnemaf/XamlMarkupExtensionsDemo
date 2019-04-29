@@ -5,7 +5,7 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace XamlMarkupExtensionsDemo.MarkupExtensions {
     /// <summary>
-    ///     <Grid Background="{helpers:ImageBrush Source='ms-appx:///Assets/StoreLogo.png' }">
+    ///     <Grid Background="{me:ImageBrush Source='ms-appx:///Assets/StoreLogo.png' }">
     /// </summary>
     [MarkupExtensionReturnType(ReturnType = typeof(ImageBrush))]
     public class ImageBrushExtension : MarkupExtension {
